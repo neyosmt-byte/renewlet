@@ -1,0 +1,26 @@
+{
+  "name": "@renewlet/cloudflare",
+  "private": true,
+  "license": "MIT",
+  "version": "0.1.1",
+  "type": "module",
+  "scripts": {
+    "test:run": "vitest run",
+    "typecheck": "tsc --noEmit --project tsconfig.json"
+  },
+  "dependencies": {
+    "@ai-sdk/anthropic": "3.0.81",
+    "@ai-sdk/google": "3.0.80",
+    "@ai-sdk/openai": "3.0.68",
+    "@ai-sdk/openai-compatible": "2.0.48",
+    "@renewlet/shared": "workspace:*",
+    "ai": "6.0.197",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@cloudflare/workers-types": "^4.20260520.1",
+    "typescript": "^6.0.3",
+    "vitest": "^4.1.6",
+    "wrangler": "^4.93.0"
+  }
+}

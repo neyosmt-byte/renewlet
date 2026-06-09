@@ -1,0 +1,30 @@
+// 媒体候选和上传响应同时服务 Logo/Icon 选择器、Go resolver 与 Worker R2 路径，必须从 shared 保持同一运行时 schema。
+export {
+  mediaCandidateConfidenceSchema,
+  mediaCandidateGroupSchema,
+  mediaCandidateKindSchema,
+  mediaCandidateModeSchema,
+  mediaCandidateResolveItemResponseSchema,
+  mediaCandidateResolveItemSchema,
+  mediaCandidateResolveRequestSchema,
+  mediaCandidateResolveResponseSchema,
+  mediaCandidateSchema,
+  mediaCandidateSourceSchema,
+  uploadImageResponseSchema,
+  uploadKindSchema,
+} from "@renewlet/shared/schemas/media";
+
+export type {
+  ApiUploadImageResponse,
+  MediaCandidate,
+  MediaCandidateConfidence,
+  MediaCandidateGroup,
+  MediaCandidateKind,
+  MediaCandidateMode,
+  MediaCandidateResolveItem,
+  MediaCandidateResolveItemResponse,
+  MediaCandidateResolveRequest,
+  MediaCandidateResolveResponse,
+  MediaCandidateSource,
+  UploadKind,
+} from "@renewlet/shared/schemas/media";
